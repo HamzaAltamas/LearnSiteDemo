@@ -1,0 +1,660 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+/* ##################### all common css end ######################### */
+
+/* ########################## topbar and banner start ######################### */
+#topbarandbanner{
+    width: 100%;
+    height: 955px;
+    position: relative;
+}
+#topbarandbanner img{
+    position: absolute;
+}
+.girl{
+    left: 0;
+    top: 372px;
+}  
+.circletop{
+    right: 0;
+    top: 80px;
+}
+.tub{
+    right: 0;
+    top: 470px;
+}
+.bannercontainer{
+    height: 100%;
+    /* background-color: blueviolet; */
+    position: relative;
+    
+}
+.bannercontainer h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    top: 10px;
+    font-size: 39px;
+    color: #43cb83;
+    top: 417px;
+}
+.bannercontainer p{
+    color: #5a6e79;
+    left: 620px;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 536px;
+}
+#visitbtn{
+    position: absolute;
+    top: 630px ;
+    left: 507px;
+    
+}
+#visitbtn a{
+    padding: 15px 25px;
+    background-color:#43cb83 ;
+    color: #fff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+#visitbtn a:hover{
+    color: #43cb83;
+    background-color: black;
+}
+.topbar{
+    position: relative;
+    height: 120px;
+    width: 100%;
+    top: 0;
+   
+}
+.logo{
+    width: 20%;
+    
+    left: 0;
+    height: 100%;
+    position: absolute;
+}
+.logo img{
+    margin-left: -17px;
+    margin-top: 18px;
+}
+.menu{
+    width: 80%;
+    height: 100%;
+    
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    line-height: 120px;
+    padding-left: 40px;
+  
+}
+.menu ul li a{
+    color: #5a6e79;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.menu ul li a:hover{
+    color: #43cb83;
+    border-bottom: 3px solid #8ee0b5;
+}
+#applybtn{
+    padding: 10px 30px;
+    background-color: #43cb83;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: #fff;
+    border-bottom: none;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+#applybtn:hover{
+    color: #43cb83;
+    background-color: #fff;
+}
+/* ########################## topbar and banner end ######################### */
+
+/* ############################# programs Start ############################ */
+#programs{
+    width: 100%;
+    height: 611px;
+    margin-top: 90px;
+}
+.programcontainer{
+    height: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.programinner{
+    width: 350px;
+    height: 250px;
+    z-index: 10;
+    text-align: center;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+.programinner img{
+       width: 100px;
+       height: auto;
+       margin-top: 45px;
+}
+.programinner:hover{
+    width: 347px;
+    height: 247px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
+}
+.programinner h1{
+    font-size: 30px;
+    
+}
+.engn1{
+    background-color: #d5a1fc;
+}
+.engn2{
+    background-color: #c4fdf8;
+}
+.engn3{
+    background-color: #ffdeba;
+}
+.engn4{
+     background-color:#ffafce ;
+}
+.engn5{
+     background-color: rgb(213, 248, 161);
+}
+.engn{
+     background-color: rgb(255, 176, 176);
+}
+
+
+/* ############################ programs end ######################### */
+
+/* ########################## pocibility start ############################### */
+#pocibility{
+    width: 100%;
+    height: 745px;
+    position: relative;
+}
+#cd{
+    position: absolute;
+    left: 0;
+    bottom: -175px;
+    z-index: -100;
+   
+}
+.posibilitycontainer{
+    
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.possibleinner{
+    width: 48%;
+    height: 100%;
+    
+}   
+.possiblevdo{
+    position: relative;
+} 
+.possiblevdo img{
+    position: absolute;
+}
+.possibletxt{
+  position: relative;
+}
+.possibletxt iframe{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 99;
+    position: absolute;
+    left: -564px;
+    
+    top: 164px;
+}
+.frame{
+    top: 132px;
+    left: 80px;
+    z-index: 6;
+}
+.flower{
+    top: 138px;
+    left: -117px;
+}
+.possibletxt h1{
+    color: #43cb83;
+    font-size: 40px;
+    margin-top: 163px;
+}
+.possibletxt p{
+    margin-top: 20px;
+    color: #5a6e79;
+}
+.amount{
+    width: 100%;
+    position: absolute;
+    bottom: 83px;
+    height: 10%;
+   
+    display: flex;
+    justify-content: space-around;
+}
+.amountinner{
+    text-align: center;
+    width: 32%;
+    height: 100%;
+}   
+.am h2{
+    font-size: 33px;
+}
+.am1{
+   color: #ffba00;
+}
+.am2{
+   color: red;
+}
+.am3{
+   color: green;
+}
+/* ############################ pocibility end ############################## */
+
+/* ################################ form start ################################ */
+#form{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/pinkbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    z-index: 9999999;
+}
+.formcontainer{
+    position: relative;
+    height: 100%;
+}
+.formcontainer img{
+    position: absolute;
+    top: 74px;
+    left: -200px;
+}
+.formcontainer p{
+     font-size: 20px;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+} 
+.formcontainer p a{
+    color: red;
+    
+}
+.formcontainer h1{
+    font-size: 50px;
+    position: absolute;
+    top: 189px;
+    left: 50px;
+}
+.mainform{
+    width: 455px;
+    height: 611px;
+    background-color: #fff;
+    position: absolute;
+    right: 50px;
+    bottom: -95px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 20px grey;
+}
+.mainform img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 0;
+}
+.mainform h1{
+    position: absolute;
+    top: 10px;
+    font-weight: 400;
+    left: 22%;
+    
+}
+.mainform ul{
+    position: absolute;
+    margin-top: 100px;
+    
+}
+.mainform ul li{
+   width: 100%;
+   display: inline-block;
+   margin-left: 7.5%;
+}
+.mainform ul li input{
+    width: 85%;
+    height: 70px;
+    background: none;
+    border: none ;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.411);
+}
+#chk{
+    position: absolute;
+    top: 475px;
+    font-size: 15px;
+    color: #5a6e79;
+}
+#chk input{
+    width: 25px;
+    border: none;
+    
+}
+#appbtn{
+    position: absolute;
+    top: 525px;
+}
+#appbtn a{
+    padding: 10px 30px;
+    background: #43cb83;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: white;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+#appbtn a:hover{
+    background-color: white;
+    color: #43cb83;
+}
+#already{
+    top: 573px;
+    left: 50px;
+    position: absolute;
+    color: #5a6e79;
+}
+#call{
+    position: absolute;
+    top: 516px;
+    color: #5a6e79;
+    left: 299px;
+}
+#greeenman{
+    position: absolute;
+    left: 1252px;
+    top: 28px;
+}
+/* ################################## form end ################################### */
+
+/* ################################## university news start ################################## */
+#universirtynews{
+    width: 100%;
+    height: 250px;
+    
+    margin-top: 200px;
+   
+}
+.universirtynewscontainer{
+    height: 100%;
+    position: relative;
+    border-bottom: 2px solid #6e787e6b;
+    
+}
+.universirtynewscontainer h1{
+    position: absolute;
+    font-size: 50px;
+    color: #43cb83;
+}
+.universirtynewscontainer P{
+    position: absolute;
+    font-size: 20px;
+    color: #5a6e79;
+    top: 80px;
+}
+.universirtynewscontainer h3{
+    position: absolute;
+    right: 0;
+    top: 59px;
+}
+.universirtynewscontainer h3 a{
+    padding: 15px 40px;
+    background-color: #43cb83;
+    color: #fff;
+    border-radius:50px ;
+    -webkit-border-radius:50px ;
+    -moz-border-radius:50px ;
+    -ms-border-radius:50px ;
+    -o-border-radius:50px ;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.universirtynewscontainer h3 a:hover{
+    background-color: #fff;
+    color: #43cb83;
+}
+/* ################################### university news end #################################### */
+
+/* ################################### review start ################################### */
+#review{
+    width: 100%;
+    height: 450px;
+    margin-top: 40px;
+}
+.reviewcontainer{
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.newsinner{
+    width: 48%;
+    height: 48%;
+    
+}
+.newsinner h1{
+    font-size: 40px;
+}
+.newsinner p{
+    margin-top: 20px;
+    color: #5a6e79;
+}
+.newsinner h4{
+    margin-top: 20px;
+    color: #5a6e79;
+}
+.newsinner h4 i:hover{
+    cursor: pointer;
+    color: #43cb83;
+}
+.newsinner h3{
+    color: #5a6e79;
+    margin-left: 400px;
+    margin-top: -10px;
+}
+/* ################################ review end ###################################### */
+
+
+/* #################################### footer start################################### */
+#footer{
+    width: 100%;
+    height: 400px;
+    background-color: #252c3a;
+    margin-top: 150px;
+}
+.footercontainer{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerinner{
+    width: 23%;
+    height: 100%;
+    
+}
+.foot1 img{
+    margin-top: 80px;
+}
+.foot1 p{
+    margin-top: 40px;
+    color: #969595;
+    border-bottom: 2px solid #5a6e79;
+    padding-bottom: 30px;
+}
+.foot1 ul{
+    margin-top: 30px;
+}
+.foot1 ul li{
+    display: inline-block;
+    margin-left: 15px;
+    text-align: left;
+}
+.foot1 ul li a i{
+    font-size: 30px;
+    color:#969595 ;
+
+}
+.foot1 ul li a i:hover{
+    color:#0089fe ;
+}
+#left{
+    margin-left: 0;
+}
+.foot2 h1{
+    margin-top: 80px;
+    color: #fff;
+    font-weight: 300;
+}
+.foot2 ul{
+    margin-top: 50px;
+}
+.foot2 ul li{
+    font-size: smaller;
+    margin-top: 15px;
+}
+.foot2 ul li a{
+    color: #969595;
+}
+
+.foot3 h1{
+    margin-top: 80px;
+    color: #fff;
+    font-weight: 300;
+}
+.foot3 ul{
+    margin-top: 50px;
+}
+.foot3 ul li{
+    font-size: smaller;
+    margin-top: 15px;
+}
+.foot3 ul li a{
+    color: #969595;
+}
+.foot4 h1{
+    margin-top: 80px;
+    color: #fff;
+    font-weight: 300;
+}
+.foot4 p{
+    margin-top: 40px;
+    color: #969595;
+    
+    padding-bottom: 30px;
+}
+.foot4 input{
+    height: 47px;
+    width: 90%;
+    border: none;
+}   
+.foot4 a{
+    padding: 13px 10px;
+    background-color: #43cb83;
+    margin-left: -100px;
+    color: white;
+}
+.foot4 a:hover{
+    background-color: white;
+    color: #43cb83;
+}
+/* ###################################### footer end ############################### */
+#free{
+    height: 700px;
+}
